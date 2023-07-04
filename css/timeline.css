@@ -13,6 +13,16 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
 ul {
 	list-style: none;
 	margin: 0 !important;
@@ -33,10 +43,7 @@ button:focus {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
 	color: #333;
 	margin: 0;
 }
