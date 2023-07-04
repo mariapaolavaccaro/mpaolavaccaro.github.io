@@ -62,7 +62,7 @@ ul.timeline>li {
 }
 ul.timeline>li:before {
     content: ' ';
-    background: black;
+    background: white;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
