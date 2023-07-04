@@ -1,3 +1,5 @@
+import TimeLineElement from "css/TimeLine.astro"
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -20,14 +22,31 @@
 
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Master Degree in Astrophysics and Cosmology"
+      subtitle="2020 to 2022 at University of Padova, Padua, Italy"
     />
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Bachelor Degree in Physics"
+      subtitle="2016 to 2019 at University of Pisa, Pisa, Italy"
     />
   </div>
-      
-curriculum vitae
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Work experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Visiting Student"
+      subtitle="From October to December 2022 at IFAE-Universitat Autònoma de Barcelona, Barcelona, Spain"
+    >
+    I spent three months with the gravitational wave group at <a href="https://www.ifae.es/people/">IFAE</a>. Here I learned the basics of LIGO-Virgo data analysis and I played around with the data storage of the code <a href="https://arxiv.org/abs/2305.17973">icarogw</a>.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Pre-doctoral contract"
+      subtitle="From February to August 2023 at University of Padova, Padua, Italy"
+    >
+    I developed a new semi-analytical model for binary black hole formation and evolution in active galactic nuclei.
+    </TimeLineElement>
+  </div>
 </html>
